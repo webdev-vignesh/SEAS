@@ -1,7 +1,7 @@
 
 function Footer() {
     return (
-      <div className="Footer">
+      <div className="Footer" style={{ height: '15vh'}}>
         <h1>Footer</h1>
       </div>
     );
