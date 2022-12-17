@@ -1,8 +1,13 @@
+import HomePage from "./components/HomePage";
+import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
-      <h1>SEAS Tech</h1>
+      <NavBar />
+      <HomePage />
+      <Footer />
     </div>
   );
 }
