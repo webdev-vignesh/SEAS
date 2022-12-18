@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/SEAS/static/css/main.e6c13ad2.css",
+    "main.js": "/SEAS/static/js/main.d454cd81.js",
+    "static/media/service_img.jpeg": "/SEAS/static/media/service_img.91c93a6c25ff667f4e90.jpeg",
+    "static/media/aboutus_img.jpg": "/SEAS/static/media/aboutus_img.b17918785042d0e6e6c5.jpg",
+    "static/media/logo.png": "/SEAS/static/media/logo.07bc3005f57f80e8c128.png",
+    "static/media/home_bg.png": "/SEAS/static/media/home_bg.3311c496cdcc43028abc.png",
+    "static/media/contact_img.jpg": "/SEAS/static/media/contact_img.0e7a05f9119203dccc59.jpg",
+    "index.html": "/SEAS/index.html",
+    "main.e6c13ad2.css.map": "/SEAS/static/css/main.e6c13ad2.css.map",
+    "main.d454cd81.js.map": "/SEAS/static/js/main.d454cd81.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.d454cd81.js"
+  ]
+}
