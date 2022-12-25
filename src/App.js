@@ -1,24 +1,12 @@
 import NavBar from "./components/NavBar";
-import HomePage from "./components/HomePage";
-import Services from "./components/Services";
-import AboutUs from "./components/AboutUs";
-import ContactUs from "./components/ContactUs";
+import MainPage from "./components/MainPage";
 import Footer from "./components/Footer";
-import {BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App bg-green-800">
+    <div className="App bg-[#3AB54A]">
       <NavBar />
-      <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/aboutus" element={<AboutUs />} />
-        <Route path="/contactus" element={<ContactUs />} />
-        <Route path="*" element={<HomePage />} />
-      </Routes>
-      </BrowserRouter>
+      <MainPage />
       <Footer />
     </div>
   );
