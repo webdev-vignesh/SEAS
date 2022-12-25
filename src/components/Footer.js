@@ -1,8 +1,8 @@
 
 function Footer() {
     return (
-      <div className="Footer " style={{ height: '5vh'}}>
-        <p style={{textAlign: 'center', padding: '3px'}}>Made with ❤️ by Vignesh</p>
+      <div className="Footer">
+        <p className="p-0.5 text-center text-white">Made with ❤️ by <a href="https://github.com/webdev-vignesh" target="_blank" rel="noreferrer">Vignesh</a></p>
       </div>
     );
   }

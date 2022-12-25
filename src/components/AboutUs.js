@@ -2,8 +2,8 @@ import Team from '../assets/aboutus_img.jpg';
 
 function AboutUs() {
     return (
-      <div className="AboutUs" style={{ height: '80vh'}}>
-        <img src={Team} alt="aboutus" style={{ height: '80vh', width: '100%'}} />
+      <div id="aboutus">
+        <img src={Team} alt="aboutus" className="w-full h-[100vh]" />
       </div>
     );
   }

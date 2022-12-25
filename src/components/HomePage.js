@@ -1,9 +1,9 @@
-import BgLogo from '../assets/home_bg.png';
+import BgImage from '../assets/home_bg.png';
 
 function HomePage() {
     return (
-      <div className="HomePage" style={{ height: '80vh'}}>
-        <img src={BgLogo} style={{ height: '80vh' , width: '100%', marginLeft: 'auto', marginRight: 'auto'}}/>
+      <div id="home">
+        <img src={BgImage} alt="home" className="h-[100vh] w-[100%]" />
       </div>
     );
   }
