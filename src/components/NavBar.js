@@ -8,9 +8,9 @@ function NavBar() {
       <nav className="navbar grid grid-cols-4">
           <ul className="hidden sm:grid grid grid-cols-4 col-start-1 col-span-2 justify-items-center p-5 text-lg text-white">
             <li className="mt-2 cursor-pointer hover:text-green-900"><Link to="home" spy={true} smooth={true}>Home</Link></li>
-            <li className="mt-2 cursor-pointer hover:text-green-900"><Link to="aboutus" spy={true} smooth={true}>About</Link></li>
+            <li className="mt-2 cursor-pointer hover:text-green-900"><Link to="aboutus" spy={true} smooth={true}>About Us</Link></li>
             <li className="mt-2"><Link to="services">Services</Link></li>
-            <li className="mt-2 cursor-pointer hover:text-green-900"><Link to="contactus" spy={true} smooth={true}>Contact</Link></li>
+            <li className="mt-2 cursor-pointer hover:text-green-900"><Link to="contactus" spy={true} smooth={true}>Contact Us</Link></li>
           </ul>
           <div>
             <Drawer />
