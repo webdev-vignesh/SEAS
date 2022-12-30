@@ -20,9 +20,9 @@ function Drawer() {
       ${showDrawer ? "translate-x-0 " : "-translate-x-full"} `}>
         <ul className="mt-8 mr-4 p-8">
           <li className="mb-2 hover:text-green-900"><Link to="home" spy={true} smooth={true} className="flex"><Icon icon="material-symbols:home" className="m-1" />Home</Link></li>
-          <li className="mb-2 hover:text-green-900"><Link to="aboutus" spy={true} smooth={true}  className="flex"><Icon icon="mdi:about" className="m-1" />About</Link></li>
+          <li className="mb-2 hover:text-green-900"><Link to="aboutus" spy={true} smooth={true}  className="flex"><Icon icon="mdi:about" className="m-1" />About Us</Link></li>
           <li className="mb-2"><Link to="/services" className="flex"><Icon icon="ic:sharp-miscellaneous-services" className="m-1" />Services</Link></li>
-          <li className="mb-2 hover:text-green-900"><Link to="contactus" spy={true} smooth={true}  className="flex"><Icon icon="material-symbols:contact-mail-rounded" className="m-1" />Contact</Link></li>
+          <li className="mb-2 hover:text-green-900"><Link to="contactus" spy={true} smooth={true}  className="flex"><Icon icon="material-symbols:contact-mail-rounded" className="m-1" />Contact Us</Link></li>
         </ul>
       </div>
     </div>
