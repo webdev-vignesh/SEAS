@@ -1,13 +1,18 @@
-import NavBar from "./components/NavBar";
 import MainPage from "./components/MainPage";
-import Footer from "./components/Footer";
+import { Routes, Route } from "react-router-dom";
+import IoT from "./components/IoT";
+import Energy from "./components/Energy";
+import Automation from "./components/Automation";
 
 function App() {
   return (
     <div className="App bg-[#3AB54A]">
-      <NavBar />
-      <MainPage />
-      <Footer />
+      <Routes>
+        <Route path="/" element={<MainPage />} />
+        <Route path="/energy" element={<Energy />} />
+        <Route path="/automation" element={<Automation />} />
+        <Route path="/iot" element={<IoT />} />
+      </Routes>
     </div>
   );
 }
