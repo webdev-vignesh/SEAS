@@ -10,15 +10,15 @@ function Drawer() {
     <div className="sm:invisible" >
       {showDrawer 
       ? (<button
-          className="flex text-4xl text-white items-center cursor-pointer fixed left-10 top-6 z-50"
+          className="flex text-4xl text-white items-center cursor-pointer absolute left-10 top-6 z-50"
           onClick={() => setShowDrawer(!showDrawer)}>
           <Icon icon="material-symbols:close" />
         </button>) 
-      : (<button className="fixed cursor-pointer left-10 top-6" onClick={() => setShowDrawer(!showDrawer)} ><Icon icon="humbleicons:view-list" height="40" color="white"/></button>)   
+      : (<button className="absolute cursor-pointer left-10 top-6" onClick={() => setShowDrawer(!showDrawer)} ><Icon icon="humbleicons:view-list" height="40" color="white"/></button>)   
       }
-      <div className={` top-0 w-[60vw] bg-green-500 text-white fixed h-full ease-in-out duration-300 
+      <div className={` top-0 w-[60vw] bg-green-500 text-white absolute h-12/12 ease-in-out duration-300 
       ${showDrawer ? "translate-x-0 " : "-translate-x-full"} `}>
-        <ul className="mt-8 mr-4 p-8">
+        <ul className="mt-10 mr-4 mb-8 p-8">
           <li className="mb-2 hover:text-green-900"><Link to="home" spy={true} smooth={true} className="flex"><Icon icon="material-symbols:home" className="m-1" />Home</Link></li>
           <li className="mb-2 hover:text-green-900"><Link to="aboutus" spy={true} smooth={true}  className="flex"><Icon icon="mdi:about" className="m-1" />About Us</Link></li>
           <li className="mb-2"><Link to="/services" className="flex"><Icon icon="ic:sharp-miscellaneous-services" className="m-1" />Services</Link></li>

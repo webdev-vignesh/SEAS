@@ -5,7 +5,6 @@ import NavBar from "./NavBar";
 import ScrollToTop from "react-scroll-to-top";
 import Footer from "./Footer";
 
-
 function MainPage() {
   return (
     <div>
