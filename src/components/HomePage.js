@@ -10,7 +10,6 @@ import SwiperCore, { Autoplay, Pagination } from 'swiper';
 
 function HomePage() {
     return (
-
       <div id="home" className="h-auto pb-14 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4 " style= {{backgroundImage: `url(${BgImage})`, backgroundRepeat: 'no-repeat', backgroundPosition: "center", backgroundSize: "cover",}}>
         <div className="pl-10 mt-14 col-span-2" style={{ fontFamily: "Poppins, sans-serif"}}>
           <h1 className="text-4xl text-white">Welcome to <span className="text-6xl">SEAS!</span></h1>
