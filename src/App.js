@@ -12,6 +12,7 @@ function App() {
         <Route path="/energy" element={<Energy />} />
         <Route path="/automation" element={<Automation />} />
         <Route path="/iot" element={<IoT />} />
+        <Route path="*" element={<MainPage />} />
       </Routes>
     </div>
   );
