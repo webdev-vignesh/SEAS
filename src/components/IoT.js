@@ -4,10 +4,9 @@ import NavBar from './NavBar';
 
 function IoT() {
     return (
-      <div id="iot" className="flex flex-col h-screen bg-gradient-to-t from-[#0052D4] h-full md:h-[100vh] ">
+      <div id="iot" className="flex flex-col bg-gradient-to-t from-[#0052D4] h-full md:h-[100vh] ">
         <NavBar className="flex"/>
-        <br />
-        <div className="text-center flex-1 mx-2">
+        <div className="text-center flex-1 mx-2 my-6">
           <h1 className="text-2xl text-center font-bold ">Internet of Things</h1>
           <p>
           Our company specializes in providing innovative IoT solutions and services to help businesses and organizations optimize their operations and gain valuable insights from connected devices and data.
