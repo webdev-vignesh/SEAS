@@ -6,8 +6,8 @@ import NavBar from './NavBar';
 
 function Automation() {
   return (
-    <div id="energy" className="flex flex-col bg-gradient-to-t from-[#5433FF] to-[#3AB54A] md:h-[100vh] lg:h-full">
-      <NavBar className="flex " />
+    <div id="energy" className="flex flex-col  bg-gradient-to-t from-[#5433FF] to-[#3AB54A] h-full md:h-[100vh] lg:h-full">
+      <NavBar className="flex" />
       <div className="flex-1 text-white m-2"> 
         <h1 className="text-2xl text-center font-bold">Automation</h1>
         <p className="text-center"> We specialize in providing industrial, home automation solutions and services to help our clients increase efficiency, reduce costs, and improve their overall operations. Our team of certified professionals has extensive experience in the industry and is dedicated to delivering exceptional service and support.</p> <br/>
