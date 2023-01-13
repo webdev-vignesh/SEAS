@@ -17,16 +17,16 @@ function Automation() {
             <img src={IA2} alt ="industrial automation" className="h-fit w-2/4"/>
           </div>
           <div className="m-2 order-1 md:order-none">
-            <p className="font-semibold">▪️ Industrial Automation</p>
+            <h1 className="font-semibold">▪️ Industrial Automation</h1>
             <p>If you are looking to streamline your industrial operations and increase productivity, we can help. We offer a range of automation solutions, including process control systems to help you optimize your processes and improve your production.</p>
           </div>
 
           <div className="m-2 order-3 md:order-none">
-            <p className="font-semibold">▪️ Home Automation</p>
+            <h1 className="font-semibold">▪️ Home Automation</h1>
             <p>We also offer home automation services to help you create a smarter, more convenient, and more energy-efficient home. Our team can help you design and install automation systems for lighting, heating and cooling, security, and other systems, giving you complete control over your home from a single device.</p>
           </div>
           <div className="m-2 order-4 md:order-none">
-            <img src={HA} alt ="home automation" className=""/>
+            <img src={HA} alt ="home automation"/>
           </div>
         </div>
         <p className="text-center mt-3 mb-1">We don't just stop at installation, we also offer ongoing support and maintenance services to ensure that your automation systems are always running smoothly.
