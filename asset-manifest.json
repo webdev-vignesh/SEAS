@@ -1,18 +1,28 @@
 {
   "files": {
-    "main.css": "/SEAS/static/css/main.e6c13ad2.css",
-    "main.js": "/SEAS/static/js/main.d454cd81.js",
-    "static/media/service_img.jpeg": "/SEAS/static/media/service_img.91c93a6c25ff667f4e90.jpeg",
-    "static/media/aboutus_img.jpg": "/SEAS/static/media/aboutus_img.b17918785042d0e6e6c5.jpg",
-    "static/media/logo.png": "/SEAS/static/media/logo.07bc3005f57f80e8c128.png",
-    "static/media/home_bg.png": "/SEAS/static/media/home_bg.3311c496cdcc43028abc.png",
+    "main.css": "/SEAS/static/css/main.6fe615bf.css",
+    "main.js": "/SEAS/static/js/main.2d83806b.js",
+    "static/media/industrialAutomation2.jpg": "/SEAS/static/media/industrialAutomation2.d4f8cbf6811dd8e37eb8.jpg",
+    "static/media/home_img.jpg": "/SEAS/static/media/home_img.c3decbe0fcacb17cd8c7.jpg",
+    "static/media/solar_panel_2.jpg": "/SEAS/static/media/solar_panel_2.5ce3a7d85e69c133f672.jpg",
+    "static/media/energy_bg.jpg": "/SEAS/static/media/energy_bg.68fc07065577275c3cef.jpg",
+    "static/media/solar_panel_3.jpg": "/SEAS/static/media/solar_panel_3.1a95c4f0df4aca6eebb6.jpg",
+    "static/media/solar_panel_1.jpg": "/SEAS/static/media/solar_panel_1.77a56681baf652ea249f.jpg",
+    "static/media/industrialAutomation1.jpg": "/SEAS/static/media/industrialAutomation1.8c6850a65889f7a82426.jpg",
+    "static/media/homeAutomation.jpg": "/SEAS/static/media/homeAutomation.0500570b2930f35c0a85.jpg",
+    "static/media/mission1.png": "/SEAS/static/media/mission1.5ca4778e9a9d79cb5de9.png",
+    "static/media/iot.jpg": "/SEAS/static/media/iot.a6edaa3c797e22e41b08.jpg",
+    "static/media/whatwedo1.jpg": "/SEAS/static/media/whatwedo1.b353aac9f3d12d6a3db0.jpg",
+    "static/media/logo_old.png": "/SEAS/static/media/logo_old.07bc3005f57f80e8c128.png",
     "static/media/contact_img.jpg": "/SEAS/static/media/contact_img.0e7a05f9119203dccc59.jpg",
+    "static/media/logo.png": "/SEAS/static/media/logo.7426b7a560b9ddab42fa.png",
+    "static/media/aboutus_bg2.png": "/SEAS/static/media/aboutus_bg2.eeb836a0bf2fa1c7277f.png",
     "index.html": "/SEAS/index.html",
-    "main.e6c13ad2.css.map": "/SEAS/static/css/main.e6c13ad2.css.map",
-    "main.d454cd81.js.map": "/SEAS/static/js/main.d454cd81.js.map"
+    "main.6fe615bf.css.map": "/SEAS/static/css/main.6fe615bf.css.map",
+    "main.2d83806b.js.map": "/SEAS/static/js/main.2d83806b.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.d454cd81.js"
+    "static/css/main.6fe615bf.css",
+    "static/js/main.2d83806b.js"
   ]
 }
