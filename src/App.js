@@ -16,6 +16,7 @@ function App() {
         <Route path="/iot" element={<IoT />} />
         <Route path="/aboutus" element={<AboutPage />} />
         <Route path="/contactus" element={<ContactPage />} />
+        <Route path="/SEAS" element={<HomePage />} />
         <Route path="*" element={<HomePage />} />
       </Routes>
     </div>
