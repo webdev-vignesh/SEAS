@@ -11,7 +11,7 @@ function NavBar() {
 return (
   <nav className="flex justify-between bg-[#3AB54A]">
       <ul className="hidden sm:flex space-x-20 p-5 ml-6 text-lg text-white">
-        <li className="mt-2"><RLink to="/SEAS" element={<MainPage/>} className="hover:text-green-900">Home</RLink></li>
+        <li className="mt-2"><RLink to="/SEAS" element={<MainPage/>} className="hover:text-green-900 ">Home</RLink></li>
         <li className="mt-2 ">
           {path === "http://localhost:3002/SEAS" 
           ? <Link to="aboutus" spy={true} smooth={true} className="cursor-pointer hover:text-green-900">About Us</Link>
