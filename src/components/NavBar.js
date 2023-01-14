@@ -11,7 +11,7 @@ function NavBar() {
 return (
   <nav className="grid grid-cols-4 bg-[#3AB54A]">
       <ul className="hidden sm:grid grid-cols-4 col-start-1 col-span-2 justify-items-center p-5 text-lg text-white">
-        <li className="mt-2"><RLink to="/" element={<MainPage/>} className="hover:text-green-900">Home</RLink></li>
+        <li className="mt-2"><RLink to="/SEAS" element={<MainPage/>} className="hover:text-green-900">Home</RLink></li>
         <li className="mt-2 ">
           {path === "https://webdev-vignesh.github.io/" 
           ? <Link to="aboutus" spy={true} smooth={true} className="cursor-pointer hover:text-green-900">About Us</Link>
