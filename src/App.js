@@ -11,12 +11,12 @@ function App() {
     <div className="App bg-[#3AB54A]">
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/home" element={<HomePage />} />
+        <Route path="/aboutus" element={<AboutPage />} />
+        <Route path="/contactus" element={<ContactPage />} />
         <Route path="/energy" element={<Energy />} />
         <Route path="/automation" element={<Automation />} />
         <Route path="/iot" element={<IoT />} />
-        <Route path="/aboutus" element={<AboutPage />} />
-        <Route path="/contactus" element={<ContactPage />} />
-        <Route path="/SEAS" element={<HomePage />} />
         <Route path="*" element={<HomePage />} />
       </Routes>
     </div>
