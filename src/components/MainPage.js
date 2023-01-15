@@ -18,7 +18,7 @@ function MainPage() {
           for industrial and commercial purposes.</p>
         </div>
         <div className=" h-full m-4 col-span-2">
-          <Swiper 
+          {/* <Swiper 
           navigation={true}  
           modules={[ Navigation, Autoplay, Pagination]} 
           pagination={{ clickable: true}}
@@ -47,7 +47,7 @@ function MainPage() {
                 src={SP3}
                 alt="solar panel 3"/>
             </SwiperSlide>
-          </Swiper>
+          </Swiper> */}
         </div>
       </div>
     );
