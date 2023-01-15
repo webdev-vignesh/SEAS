@@ -9,7 +9,7 @@ function NavBar() {
   const path = window.location.href;
   
   return (
-    <nav className="flex justify-between bg-[#3AB54A]">
+    <nav className="sticky top-0 flex justify-between bg-[#3AB54A] h-min">
       <ul className="hidden sm:flex space-x-20 p-5 ml-6 text-xl font-semibold text-white">
         <li className="mt-2"><RLink to="/" element={<MainPage/>} className="hover:text-green-900 ">Home</RLink></li>
         <li className="mt-2">
@@ -37,8 +37,8 @@ function NavBar() {
       <div className="sm:invisible">
         <Drawer />
       </div>
-      <div className="navbar-logo grid col-start-4 justify-items-end mr-6">
-          <RLink to="/"><img src={Logo} alt='seas-logo' className='h-24 cursor-pointer' /></RLink>
+      <div className="mr-6">
+          <RLink to="/"><img src={Logo} alt='seas-logo' className='h-20 cursor-pointer' /></RLink>
       </div>
     </nav>
   );
