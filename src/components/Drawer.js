@@ -19,7 +19,7 @@ function Drawer() {
         </button>) 
       : (<button className="absolute cursor-pointer left-10 top-6" onClick={() => setShowDrawer(!showDrawer)} ><Icon icon="humbleicons:view-list" height="40" color="white"/></button>)   
       }
-      <div className={` top-0 h-[50vh] w-[70vw] bg-green-500 text-white absolute ease-in-out duration-300 
+      <div className={` top-0 h-[50vh] w-[60vw] bg-green-500 text-white absolute ease-in-out duration-300 
       ${showDrawer ? "translate-x-0 " : "-translate-x-full"} `}>
         <ul className="mt-12 mb-6 p-8 font-semibold">
           <li className="mb-2 hover:text-green-900">
