@@ -1,6 +1,7 @@
 import EnergyBg from '../assets/energy_bg.jpg';
 import Footer from './Footer';
 import NavBar from './NavBar';
+import ScrollToTop from "react-scroll-to-top";
 
 function Energy() {
   return (
@@ -17,6 +18,7 @@ function Energy() {
         Our team of highly trained and experienced professionals is dedicated to providing top-quality service to our clients.</p>  
         <br/>
       </div> 
+      <ScrollToTop smooth color="#3ab54a" width="" />
       <Footer className="flex"/>
     </div>
   );

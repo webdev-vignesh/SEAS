@@ -4,6 +4,7 @@ import BgImage from '../assets/aboutus_bg2.png';
 import Mission from '../assets/mission1.png';
 import Logo from '../assets/logo_old.png';
 import Wwd from '../assets/whatwedo1.jpg';
+import ScrollToTop from "react-scroll-to-top";
 
 function AboutPage() {
   return (
@@ -44,6 +45,7 @@ function AboutPage() {
           </div>
         </div>
       </div>
+      <ScrollToTop smooth color="#3ab54a" width="" />
       <Footer />
     </div>
   );

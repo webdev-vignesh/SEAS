@@ -3,6 +3,7 @@ import IA1 from '../assets/industrialAutomation1.jpg';
 import IA2 from '../assets/industrialAutomation2.jpg';
 import Footer from './Footer';
 import NavBar from './NavBar';
+import ScrollToTop from "react-scroll-to-top";
 
 function Automation() {
   return (
@@ -30,11 +31,11 @@ function Automation() {
           </div>
         </div>
         <p className="text-center mt-3 mb-1">We don't just stop at installation, we also offer ongoing support and maintenance services to ensure that your automation systems are always running smoothly.
-        Our team is available to provide expert advice, troubleshooting, and repair services as needed.
-        We look forward to working with you and helping you take your operations to the next level. Please don't hesitate to contact us for more information or to request a quote.
+          Our team is available to provide expert advice, troubleshooting, and repair services as needed.
         </p>  
       </div> 
       <Footer className="flex"/>
+      <ScrollToTop smooth color="#3ab54a" width="" />
     </div>
   );
 }

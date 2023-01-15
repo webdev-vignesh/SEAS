@@ -8,11 +8,11 @@ function NavBar() {
   
   const path = window.location.href;
   
-return (
-  <nav className="flex justify-between bg-[#3AB54A]">
-      <ul className="hidden sm:flex space-x-20 p-5 ml-6 text-lg text-white">
+  return (
+    <nav className="flex justify-between bg-[#3AB54A]">
+      <ul className="hidden sm:flex space-x-20 p-5 ml-6 text-xl font-semibold text-white">
         <li className="mt-2"><RLink to="/SEAS" element={<MainPage/>} className="hover:text-green-900 ">Home</RLink></li>
-        <li className="mt-2 ">
+        <li className="mt-2">
           {path === "http://localhost:3002/SEAS" 
           ? <Link to="aboutus" spy={true} smooth={true} className="cursor-pointer hover:text-green-900">About Us</Link>
           : <RLink to="/aboutus" className="cursor-pointer hover:text-green-900">About Us</RLink>}</li>

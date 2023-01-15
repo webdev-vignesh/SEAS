@@ -21,7 +21,7 @@ function Drawer() {
       }
       <div className={` top-0 h-[50vh] w-[70vw] bg-green-500 text-white absolute ease-in-out duration-300 
       ${showDrawer ? "translate-x-0 " : "-translate-x-full"} `}>
-        <ul className="mt-12 mb-6 p-8">
+        <ul className="mt-12 mb-6 p-8 font-semibold">
           <li className="mb-2 hover:text-green-900">
             { path === "http://localhost:3000/" 
             ? <Link to="home" spy={true} smooth={true} className="flex"><Icon icon="material-symbols:home" className="m-1" />Home</Link>
