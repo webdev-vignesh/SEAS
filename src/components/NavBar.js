@@ -11,7 +11,7 @@ function NavBar() {
   return (
     <nav className="flex justify-between bg-[#3AB54A]">
       <ul className="hidden sm:flex space-x-20 p-5 ml-6 text-xl font-semibold text-white">
-        <li className="mt-2"><RLink to="/home" element={<MainPage/>} className="hover:text-green-900 ">Home</RLink></li>
+        <li className="mt-2"><RLink to="/" element={<MainPage/>} className="hover:text-green-900 ">Home</RLink></li>
         <li className="mt-2">
           {path === "http://localhost:3002/home" 
           ? <Link to="aboutus" spy={true} smooth={true} className="cursor-pointer hover:text-green-900">About Us</Link>
@@ -38,7 +38,7 @@ function NavBar() {
         <Drawer />
       </div>
       <div className="navbar-logo grid col-start-4 justify-items-end mr-6">
-          <RLink to="/home"><img src={Logo} alt='seas-logo' className='h-24 cursor-pointer' /></RLink>
+          <RLink to="/"><img src={Logo} alt='seas-logo' className='h-24 cursor-pointer' /></RLink>
       </div>
     </nav>
   );
