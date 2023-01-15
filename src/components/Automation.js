@@ -4,10 +4,12 @@ import IA2 from '../assets/industrialAutomation2.jpg';
 import Footer from './Footer';
 import NavBar from './NavBar';
 import ScrollToTop from "react-scroll-to-top";
+import { Helmet } from 'react-helmet';
 
 function Automation() {
   return (
     <div id="energy" className="flex flex-col  bg-gradient-to-t from-[#5433FF] to-[#3AB54A] h-full md:h-[100vh] lg:h-full">
+      <Helmet><title>SEAS Tech | Automation</title></Helmet>
       <NavBar className="flex" />
       <div className="flex-1 text-white m-2"> 
         <h1 className="text-2xl text-center font-bold">Automation</h1>

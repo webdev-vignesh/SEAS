@@ -1,11 +1,12 @@
 import Footer from './Footer';
 import NavBar from './NavBar';
 import ScrollToTop from "react-scroll-to-top";
-
+import { Helmet } from 'react-helmet';
 
 function ContactUs() {
     return (
       <div id="contactPage">
+        <Helmet><title>SEAS Tech | Contact</title></Helmet>
         <NavBar />
         <div className="">
           <h1>Get In Touch</h1>

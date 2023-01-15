@@ -2,10 +2,12 @@ import EnergyBg from '../assets/energy_bg.jpg';
 import Footer from './Footer';
 import NavBar from './NavBar';
 import ScrollToTop from "react-scroll-to-top";
+import { Helmet } from 'react-helmet';
 
 function Energy() {
   return (
     <div id="energy" className="flex flex-col h-screen">
+      <Helmet><title>SEAS Tech | Energy Management</title></Helmet>
       <NavBar className="flex" />
       <div className="flex-1 text-[#5E0120]" style={{backgroundImage: `url(${EnergyBg})`, backgroundRepeat: 'no-repeat', backgroundPosition: "center", backgroundSize: "cover",}}>
         <h1 className="text-2xl text-center font-bold">Energy Management</h1>

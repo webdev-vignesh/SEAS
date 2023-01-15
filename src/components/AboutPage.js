@@ -5,10 +5,12 @@ import Mission from '../assets/mission1.png';
 import Logo from '../assets/logo_old.png';
 import Wwd from '../assets/whatwedo1.jpg';
 import ScrollToTop from "react-scroll-to-top";
+import { Helmet } from 'react-helmet';
 
 function AboutPage() {
   return (
     <div id="aboutPage" >
+      <Helmet><title>SEAS Tech | About</title></Helmet>
       <NavBar />
       <div className="p-4 text-white h-auto md:h-[90vh] lg:h-auto " style={{backgroundImage : `url(${BgImage})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundSize: 'cover',}}>          <p className="font-bold text-4xl text-center">About SEAS</p>
         <div className="grid grid-rows-6 grid-cols-1 md:grid-cols-2 grid-rows-3 ">  

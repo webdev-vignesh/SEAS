@@ -2,10 +2,12 @@ import iot from '../assets/iot.jpg';
 import Footer from './Footer';
 import NavBar from './NavBar';
 import ScrollToTop from "react-scroll-to-top";
+import { Helmet } from 'react-helmet';
 
 function IoT() {
   return (
     <div id="iot" className="flex flex-col bg-gradient-to-t from-[#0052D4] h-full md:h-[100vh] ">
+      <Helmet><title>SEAS Tech | IoT</title></Helmet>
       <NavBar className="flex"/>
       <div className="text-center flex-1 mx-2 my-6">
         <h1 className="text-2xl text-center font-bold ">Internet of Things</h1>
