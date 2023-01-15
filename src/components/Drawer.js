@@ -39,9 +39,9 @@ function Drawer() {
           <button className="cursor-pointer hover:text-green-900 flex"><Icon icon="ic:sharp-miscellaneous-services" className="m-1" />Services</button>
             <div className="absolute hidden group-hover:block">
               <div className="px-6 pt-2 pb-4 bg-green-500 flex flex-col flex-wrap">
-                <div><RLink to="/energy" className="cursor-pointer hover:text-green-900 flex"><Icon icon="material-symbols:energy-program-time-used" className="mt-1 mr-2"/>Energy Management</RLink></div>
-                <div><RLink to="/automation" className="cursor-pointer hover:text-green-900 flex"><Icon icon="mdi:home-automation" className="mt-1 mr-2"/>Automation</RLink></div>
-                <div><RLink to="/iot" className="cursor-pointer hover:text-green-900 flex"><Icon icon="eos-icons:iot" className="mt-1 mr-2" />IoT</RLink></div>
+              <div><RLink to="/iot" className="cursor-pointer hover:text-green-900 flex"><Icon icon="eos-icons:iot" className="mt-1 mr-2" />IoT</RLink></div>
+              <div><RLink to="/automation" className="cursor-pointer hover:text-green-900 flex"><Icon icon="mdi:home-automation" className="mt-1 mr-2"/>Automation</RLink></div>
+              <div><RLink to="/energy" className="cursor-pointer hover:text-green-900 flex"><Icon icon="material-symbols:energy-program-time-used" className="mt-1 mr-2"/>Energy Management</RLink></div>
               </div>
             </div>
           </div>
