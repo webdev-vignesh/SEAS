@@ -18,7 +18,7 @@ function AboutPage() {
             <img src={Mission} alt="our mission" className="h-full md:h-3/4 w-full md:w-3/4"/>
           </div>
           <div className="order-1 md:order-none">
-            <p className="font-bold text-center mt-6 md:mt-2 text-2xl">⇗ OUR MISSION</p>
+            <p className="font-bold text-center mt-6 text-2xl md:mt-2">⇗ OUR MISSION</p>
             <p className="m-1">                
               To help businesses and organizations in increasing efficiency, reducing costs, and improving overall operations by utilising cutting-edge technologies. 
               We specialize in providing automation solutions for manufacturing and industrial processes, IoT solutions for asset tracking and monitoring, and energy management solutions for reducing energy consumption and costs.
@@ -40,7 +40,7 @@ function AboutPage() {
           </div>
           <div className="order-5 md:order-none">
             <p className="font-bold text-center text-2xl mt-6 md:mt-2">⇯ WHAT WE DO</p>
-            <p>
+            <p className="m-1">
               We work closely with our clients to understand their individual requirements and design our solutions to match those requirements. 
               We understand that every business is unique, and we take great pleasure in providing exceptional customer service and building strong relationships with our clients.
             </p>
