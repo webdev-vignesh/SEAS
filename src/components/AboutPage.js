@@ -1,9 +1,9 @@
 import Footer from './Footer';
 import NavBar from './NavBar';
 import BgImage from '../assets/aboutus_bg2.png';
-import Mission from '../assets/mission1.png';
+import Mission from '../assets/mission.png';
 import Logo from '../assets/logo_old.png';
-import Wwd from '../assets/whatwedo1.jpg';
+import Wwd from '../assets/whatwedo.jpg';
 import ScrollToTop from "react-scroll-to-top";
 import { Helmet } from 'react-helmet';
 

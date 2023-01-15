@@ -10,7 +10,7 @@ function Drawer() {
   const[showDrawer, setShowDrawer] = useState(false);
 
   return (
-    <div className="sm:invisible" >
+    <div>
       {showDrawer 
       ? (<button
           className="flex text-4xl text-white items-center cursor-pointer absolute left-10 top-6 z-50"
@@ -59,4 +59,3 @@ function Drawer() {
 }
   
 export default Drawer;
-  

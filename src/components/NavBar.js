@@ -9,7 +9,7 @@ function NavBar() {
   const path = window.location.href;
   
   return (
-    <nav className="sticky top-0 flex justify-between bg-[#3AB54A] h-max">
+    <nav className="sticky top-0 flex justify-between bg-[#3AB54A] h-max border-b shadow-md border-green-600">
       <ul className="hidden sm:flex space-x-20 p-5 ml-6 text-xl font-semibold text-white">
         <li className="mt-2"><RLink to="/" element={<MainPage/>} className="hover:text-green-900 ">Home</RLink></li>
         <li className="mt-2">

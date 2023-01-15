@@ -1,7 +1,7 @@
 import BgImage from '../assets/aboutus_bg2.png';
-import Mission from '../assets/mission1.png';
+import Mission from '../assets/mission.png';
 import Logo from '../assets/logo_old.png';
-import Wwd from '../assets/whatwedo1.jpg';
+import Wwd from '../assets/whatwedo.jpg';
 
 function AboutUs() {
   return (
