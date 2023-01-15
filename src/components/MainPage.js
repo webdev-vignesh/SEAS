@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation } from "swiper";
-import SwiperCore, { Autoplay, Pagination } from 'swiper';
+import { Autoplay, Pagination } from 'swiper';
 
 function MainPage() {
     return (
