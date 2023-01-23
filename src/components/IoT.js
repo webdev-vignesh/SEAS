@@ -6,7 +6,7 @@ import { Helmet } from 'react-helmet';
 
 function IoT() {
   return (
-    <div id="iot" className="flex flex-col bg-gradient-to-t from-[#0052D4] h-full md:h-[100vh] ">
+    <div id="iot" className="flex flex-col text-white bg-gradient-to-t from-[#0052D4] h-full md:h-[100vh] ">
       <Helmet><title>SEAS Tech | IoT</title></Helmet>
       <NavBar className="flex"/>
       <div className="text-center flex-1 mx-2 my-6">
