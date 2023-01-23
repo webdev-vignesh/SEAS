@@ -9,7 +9,7 @@ function Energy() {
     <div id="energy" className="flex flex-col h-screen">
       <Helmet><title>SEAS Tech | Energy Management</title></Helmet>
       <NavBar className="flex" />
-      <div className="flex-1 bg-gradient-to-t from-[#182848] to-[#4b6cb7] " >
+      <div className="flex-1 text-white bg-gradient-to-t from-[#182848] to-[#4b6cb7] " >
         <h1 className="text-2xl text-center font-bold">Energy Management</h1>
         <br />
         <p className="text-center ml-2 mr-2">We offer energy management services to help you optimize your energy use and reduce your carbon footprint. Our team can conduct energy audits, provide recommendations for energy-efficient upgrades, and help you implement strategies to reduce your energy consumption.</p> <br/>
