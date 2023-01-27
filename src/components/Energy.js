@@ -1,4 +1,3 @@
-import EnergyBg from '../assets/energy_bg.jpg';
 import Footer from './Footer';
 import NavBar from './NavBar';
 import ScrollToTop from "react-scroll-to-top";
