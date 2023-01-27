@@ -10,7 +10,7 @@ import Footer from './Footer';
 function IoT() {
   return (
     <div id="iot" className="flex flex-col text-white bg-gradient-to-t from-[#0052D4] h-full md:h-[100vh] ">
-      <Helmet><title>SEAS Tech | Web Development</title></Helmet>
+      <Helmet><title>SEAS Tech | Web Services</title></Helmet>
       <NavBar className="flex"/>
       <div className="text-center flex-1 mx-2 my-6">
         <h1 className="text-2xl text-center font-bold ">Web Development Services</h1>
@@ -20,19 +20,18 @@ function IoT() {
         </p>
         <br />
         <div className="text-left grid grid-cols-1 md:grid-cols-3 ">         
-
           <div className="flex flex-col md:flex-row m-4 md:mt-0 ">
             <img src={web} alt="web-design"  />
             <br/>
             <ul className="ml-8">
-                <h6 className="font-semibold w-56">Our services include:</h6>
+                <h6 className="font-semibold md:w-60 lg:w-80">Our services include:</h6>
                 <li>▪️ Website design and development</li>
                 <li>▪️ Custom web applications</li>
                 <li>▪️ E-commerce development</li>
                 <li>▪️ SEO and digital marketing</li>
             </ul>
             <br/>
-            <img src={web1} alt="web-development"  />
+            <img className="flex-end" src={web1} alt="web-development"  />
           </div>
         </div>
         <p>
