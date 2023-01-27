@@ -21,9 +21,10 @@ function NavBar() {
             <button className="cursor-pointer hover:text-green-900">Services</button>
             <div className="absolute hidden group-hover:block">
               <div className="px-6 pt-2 pb-4 bg-green-500 flex flex-col flex-wrap">
-                <div><RLink to="/energy" className="cursor-pointer hover:text-green-900 ">Energy Management</RLink></div>
-                <div><RLink to="/automation" className="cursor-pointer hover:text-green-900 ">Automation</RLink></div>
                 <div><RLink to="/iot" className="cursor-pointer hover:text-green-900 ">IoT</RLink></div>
+                <div><RLink to="/automation" className="cursor-pointer hover:text-green-900 ">Automation</RLink></div>
+                <div><RLink to="/energy" className="cursor-pointer hover:text-green-900">Energy Management</RLink></div>
+                <div><RLink to="/web" className="cursor-pointer hover:text-green-900 ">Web Development</RLink></div>
               </div>
             </div>
           </div>

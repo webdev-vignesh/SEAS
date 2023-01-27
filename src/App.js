@@ -5,6 +5,7 @@ import Energy from "./components/Energy";
 import Automation from "./components/Automation";
 import AboutPage from "./components/AboutPage";
 import ContactPage from "./components/ContactPage";
+import WebDevelopment from "./components/WebDevelopment";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/energy" element={<Energy />} />
         <Route path="/automation" element={<Automation />} />
         <Route path="/iot" element={<IoT />} />
+        <Route path="/web" element={<WebDevelopment />} />
         <Route path="*" element={<HomePage />} />
       </Routes>
     </div>

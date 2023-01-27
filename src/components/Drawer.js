@@ -19,7 +19,7 @@ function Drawer() {
         </button>) 
       : (<button className="absolute cursor-pointer left-10 top-6" onClick={() => setShowDrawer(!showDrawer)} ><Icon icon="humbleicons:view-list" height="40" color="white"/></button>)   
       }
-      <div className={` top-0 h-[50vh] w-[60vw] bg-green-500 text-white absolute ease-in-out duration-300 
+      <div className={` top-0 h-[60vh] w-[60vw] bg-green-500 text-white absolute ease-in-out duration-300 
       ${showDrawer ? "translate-x-0 " : "-translate-x-full"} `}>
         <ul className="mt-12 mb-6 p-8 font-semibold">
           <li className="mb-2 hover:text-green-900">
@@ -38,10 +38,11 @@ function Drawer() {
           <div className="relative group ">
           <button className="cursor-pointer hover:text-green-900 flex"><Icon icon="ic:sharp-miscellaneous-services" className="m-1" />Services</button>
             <div className="absolute hidden group-hover:block">
-              <div className="px-6 pt-2 pb-4 bg-green-500 flex flex-col-reverse flex-wrap">
+              <div className="px-6 pt-2 pb-4 bg-green-500 flex flex-col flex-wrap">
               <div><RLink to="/iot" className="cursor-pointer hover:text-green-900 flex"><Icon icon="eos-icons:iot" className="mt-1 mr-2" />IoT</RLink></div>
               <div><RLink to="/automation" className="cursor-pointer hover:text-green-900 flex"><Icon icon="mdi:home-automation" className="mt-1 mr-2"/>Automation</RLink></div>
               <div><RLink to="/energy" className="cursor-pointer hover:text-green-900 flex"><Icon icon="material-symbols:energy-program-time-used" className="mt-1 mr-2"/>Energy Management</RLink></div>
+              <div><RLink to="/energy" className="cursor-pointer hover:text-green-900 flex"><Icon icon="fluent-mdl2:website" className="mt-1 mr-2"/>Web Development</RLink></div>
               </div>
             </div>
           </div>
