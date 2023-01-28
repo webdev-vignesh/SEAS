@@ -42,7 +42,7 @@ function Drawer() {
               <div><RLink to="/iot" className="cursor-pointer hover:text-green-900 flex"><Icon icon="eos-icons:iot" className="mt-1 mr-2" />IoT</RLink></div>
               <div><RLink to="/automation" className="cursor-pointer hover:text-green-900 flex"><Icon icon="mdi:home-automation" className="mt-1 mr-2"/>Automation</RLink></div>
               <div><RLink to="/energy" className="cursor-pointer hover:text-green-900 flex"><Icon icon="material-symbols:energy-program-time-used" className="mt-1 mr-2"/>Energy Management</RLink></div>
-              <div><RLink to="/energy" className="cursor-pointer hover:text-green-900 flex"><Icon icon="fluent-mdl2:website" className="mt-1 mr-2"/>Web Development</RLink></div>
+              <div><RLink to="/web" className="cursor-pointer hover:text-green-900 flex"><Icon icon="fluent-mdl2:website" className="mt-1 mr-2"/>Web Development</RLink></div>
               </div>
             </div>
           </div>
