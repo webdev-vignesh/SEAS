@@ -26,6 +26,7 @@ function Energy() {
             <h2>Our Energy Management services includes:</h2>
             <p>▪️ Solar panel installation</p>
             <p>▪️ APFC panel installation</p>
+            <p>▪️ UPS Battery installation</p>
           </div>
           <div className="p-4 md:p-0 md:mr-2 lg:mr-6">
             <img src={solarPanel} alt="solar panel" className="md:h-64 md:w-52 lg:w-64"/>
