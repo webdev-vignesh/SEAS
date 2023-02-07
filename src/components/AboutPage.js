@@ -61,11 +61,10 @@ function AboutPage() {
               We work closely with our clients to understand their individual requirements and design our solutions to match those requirements. 
               We understand that every business is unique, and we take great pleasure in providing exceptional customer service and building strong relationships with our clients.
             </p>
-          </div>
-          
+          </div> 
         </div>
         {/* Main Content Grid end */}
-
+        
       </div>
       {/* About page end */}
 
